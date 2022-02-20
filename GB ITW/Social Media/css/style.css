@@ -1,0 +1,422 @@
+.background-image {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/imTEAMY.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#input{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+}
+
+:root{
+    --clr-ghosty: hsl(0, 100%, 50%);
+    --clr-wirussi: hsl(127, 63%, 40%);
+
+}
+body{
+    overflow: hidden;
+    font-family: "Balsamiq Sans", cursive;
+    display: grid;
+    min-height: 100vh;
+
+}
+a {
+    text-decoration: none;
+}
+#ghosty {
+    position: absolute;
+    top: 0px;
+    right: 110px;
+    color: var(--clr-ghosty);
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 0.25em 1em;
+    text-shadow: 0 0 0.15em hsl(0 0% 100% / 0.5),
+    0 0 0.45em currentColor;
+
+}
+#wirussi {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    color: var(--clr-wirussi);
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 0.25em 1em;
+    text-shadow: 0 0 0.15em hsl(0 0% 100% / 0.5),
+    0 0 0.45em currentColor;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+#tiktok-w-l,
+#instagram-w-l,
+#trovo-w-l,
+#youtube-w-l
+{
+    color: var(--clr-wirussi);
+    border: currentColor 0.125em solid;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.25em 1em;
+    border-radius: 0.7em;
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% /0.3),
+    0 0 0.45em currentColor;
+
+    box-shadow: inset 0 0 0.5em 0 var(--clr-wirussi),
+    0 0 0.5em 0 var(--clr-wirussi);
+
+}
+#tiktok-w-l{
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+
+#tiktok-w-l:hover{
+    background-color: var(--clr-wirussi);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+#instagram-w-l{
+    position: absolute;
+    top: 270px;
+    left: 220px;
+}
+#instagram-w-l:hover{
+    background-color: var(--clr-wirussi);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+#trovo-w-l {
+    position: absolute;
+    top: 340px;
+    left: 220px;
+}
+#trovo-w-l:hover{
+     background-color: var(--clr-wirussi);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+#youtube-w-l{
+    position: absolute;
+    top: 410px;
+    left: 220px;
+}
+#youtube-w-l:hover{
+    background-color: var(--clr-wirussi);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+
+#tiktok-w{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+
+#instagram-w{
+    position: absolute;
+    top: 260px;
+    left: 150px;
+
+}
+#trovo-w{
+    position: absolute;
+    top: 330px;
+    left: 150px;
+}
+#youtube-w{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+
+}
+
+#logo-w{
+    position: absolute;
+    top: 500px;
+    left: 110px;
+    color: var(--clr-wirussi);
+    display: inline-block;
+    box-shadow: inset 0 0 2em 0 var(--clr-wirussi),
+    0 0 2em 0 var(--clr-wirussi);
+    border-radius: 1em;
+
+}
+#logo-w img{
+    border-radius: 1em;
+}
+
+
+
+
+
+#tiktok-g-l,
+#instagram-g-l,
+#trovo-g-l,
+#youtube-g-l
+{
+    color: var(--clr-ghosty);
+    border: currentColor 0.125em solid;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.25em 1em;
+    border-radius: 0.7em;
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% /0.3),
+    0 0 0.45em currentColor;
+
+    box-shadow: inset 0 0 0.5em 0 var(--clr-ghosty),
+    0 0 0.5em 0 var(--clr-ghosty);
+
+}
+#tiktok-g-l{
+    position: absolute;
+    top: 200px;
+    right: 220px;
+}
+
+#tiktok-g-l:hover{
+    background-color: var(--clr-ghosty);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+#instagram-g-l{
+    position: absolute;
+    top: 270px;
+    right: 220px;
+}
+#instagram-g-l:hover{
+    background-color: var(--clr-ghosty);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+#trovo-g-l {
+    position: absolute;
+    top: 340px;
+    right: 220px;
+}
+#trovo-g-l:hover{
+     background-color: var(--clr-ghosty);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+#youtube-g-l{
+    position: absolute;
+    top: 410px;
+    right: 220px;
+}
+#youtube-g-l:hover{
+    background-color: var(--clr-ghosty);
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+
+#tiktok-g{
+    position: absolute;
+    top: 190px;
+    right: 150px;
+}
+
+#instagram-g{
+    position: absolute;
+    top: 260px;
+    right: 150px;
+}
+#trovo-g{
+    position: absolute;
+    top: 330px;
+    right: 150px;
+}
+#youtube-g{
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+
+#logo-g{
+    position: absolute;
+    top: 500px;
+    right: 110px;
+    color: var(--clr-ghosty);
+    display: inline-block;
+
+    box-shadow: inset 0 0 2em 0 var(--clr-ghosty),
+    0 0 2em 0 var(--clr-ghosty);
+    border-radius: 1em;
+}
+
+#logo-g img{
+    border-radius: 1em;
+}
+
+
+
+@media (max-width: 1300px){
+    
+    h3{
+    font-size: 1em;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+
+    #logo-w,
+    #logo-g {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+    }
+    #logo-w {
+        top: 420px;
+    }
+    #logo-g {
+     left: 110px;
+     top: 1155px;
+    }
+
+    #tiktok-g {
+        position: absolute;
+        top: 795px;
+        right: 780px;
+    }
+
+    #tiktok-g-l {
+        position: absolute;
+        top: 800px;
+        right: 655px;
+
+    }
+
+    #instagram-g {
+        position: absolute;
+        top: 880px;
+        right: 780px;
+    }
+    #instagram-g-l {
+        position: absolute;
+        top: 885px;
+        right: 655px;
+    }
+
+
+    #trovo-g {
+        position: absolute;
+        top: 965px;
+        right: 780px;
+    }
+    #trovo-g-l {
+        position: absolute;
+        top: 975px;
+        right: 645px;
+    }
+
+    #youtube-g {
+        position: absolute;
+        top: 1050px;
+        right: 780px;
+    }
+    #youtube-g-l {
+        position: absolute;
+        top: 1060px;
+        right: 660px;
+    }
+
+
+
+
+
+
+
+
+
+    
+    #tiktok-w-l{
+        position: absolute;
+        top: 130px;
+        left: 220px;
+    }
+    
+
+    #instagram-w-l{
+        position: absolute;
+        top: 200px;
+        left: 220px;
+    }
+
+    #trovo-w-l {
+        position: absolute;
+        top: 270px;
+        left: 220px;
+    }
+
+    
+    #youtube-w-l{
+        position: absolute;
+        top: 340px;
+        left: 220px;
+    }
+    
+
+    
+    
+    #tiktok-w{
+        position: absolute;
+        top: 120px;
+        left: 150px;
+    }
+    
+    #instagram-w{
+        position: absolute;
+        top: 190px;
+        left: 150px;
+    
+    }
+    #trovo-w{
+        position: absolute;
+        top: 260px;
+        left: 150px;
+    }
+    #youtube-w{
+        position: absolute;
+        top: 330px;
+        left: 150px;
+    
+    }
+
+    #ghosty {
+        top: 650px;
+        left: 110px;
+    }
+
+
+
+}
+
+
+
+
+
